@@ -34,7 +34,7 @@ if pcd_front is None or pcd_left is None or pcd_right is None:
     exit()
 
 # Registration (Alignment)
-# You may need to adjust the initial transformation guess
+
 trans_init = np.asarray([[1.0, 0.0, 0.0, 0.0],
                          [0.0, 1.0, 0.0, 0.0],
                          [0.0, 0.0, 1.0, 0.0],
